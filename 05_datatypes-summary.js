@@ -33,7 +33,7 @@ console.log(typeof myFunction); //undefined
 //myfunction ka function aata hai
 //****************************** */
 
-//stack(primitive),heap(Non-primitive)
+//stack(primitive)(copy milta h),heap(Non-primitive)(reference milta h)
 let myYoutubename = "priya"
 
 let anothername = myYoutubename
@@ -47,7 +47,7 @@ let userOne = {
 }
 
 let userTwo = userOne
-userTwo.email = "priya@google.com"
+userTwo.email = "supriya@google.com"
 
 console.log(userOne.email)
 console.log(userTwo.email)
